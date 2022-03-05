@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  color: white;
+}
+
+textarea {
+  display: block;
+  width: 60%;
+  height: 10rem;
+  background: rgb(10, 9, 10);
+  outline: none;
+  border: none;
+  resize: none;
+  font-weight: bolder;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.js {
+  width: 60%;
+  min-height: 10rem;
+  background: rgb(10, 9, 10);
+  font-weight: bolder;
+  padding: 1rem;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+#app > * + * {
+  margin-top: 1rem;
+}
+button {
+  background: black;
+  color: whitesmoke;
+  padding: 0.2rem 0.4rem;
+}
+.prop {
+  color: yellowgreen;
+}
+.val {
+  color: yellow;
+}
